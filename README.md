@@ -34,12 +34,13 @@ make sure both Target PC and Windows Server are listed as hosts*
 
 <img src="https://i.imgur.com/Mhtcg7H.png" width="80%"  height="80%" />
 
-*Step 3: In Windows Server, download & install the server, create domain, create new group and add Users to domain with logins.*
+*Step 3: In Windows Server, download & install the server, create domain, create new group and add Users to domain with logins.
+Here it allows us to assign roles and create new profiles for instance, new hires. Assign roles with preconfigured settings
+and access to each department.*
 
 <img src="https://i.imgur.com/CvWn9Hu.png" width="80%"  height="80%" />
 
-*Step 4: Login to Kali machine. Download crowbar application through Terminal. Enter code "crowbar -b rdp -u tsmith -C passwords.txt -s (IP)"
-and attack IP. See success.*
+*Step 4: Login to Kali machine. Download crowbar application through Terminal. Enter code "crowbar -b rdp -u tsmith -C passwords.txt -s 192.168.10.100" and attack IP of the server. See success.*
 
 <img src="https://i.imgur.com/F6tOgWZ.png" width="80%"  height="80%" />
 
