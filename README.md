@@ -45,7 +45,7 @@ and access to each department.*
 <img src="https://i.imgur.com/F6tOgWZ.png" width="80%"  height="80%" />
 
 *Step 5: Go to Splunk and view events through our created index. See event code 4625 indicating unsuccessful login attempts and event code 4624 showing
-successful login and details of logged in machine.*
+successful login and details of logged in machine which is the Kali Linux with the attacker IP of 192.168.10.250.*
 
 <img src="https://i.imgur.com/9QgKmGC.png" width="80%"  height="80%" />
 
